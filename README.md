@@ -29,14 +29,3 @@ This project demonstrates interactive data visualizations using D3.js and Plotly
 - CSS
 - JavaScript
 
-## Screenshots
-
-Include screenshots or GIFs that demonstrate the functionality of your visualizations.
-
-## Credits
-
-- This project was inspired by [source of inspiration].
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
