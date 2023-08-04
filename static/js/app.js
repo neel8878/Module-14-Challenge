@@ -22,6 +22,10 @@ const fetchData = async () => {
   }
 }
 
+if (isLoading) {
+  bar.innerHTML = `<h2>Loading...</h2>`
+}
+
 
 // handlers
 const renderInfo = (id) => {
@@ -330,8 +334,8 @@ window.addEventListener("load", async () => {
   else {
     await fetchData();
   }
-  console.log(data);
   isLoading = false;
+  bar.innerHTML = '';
   setOptions();
 })
 
